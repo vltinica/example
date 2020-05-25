@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+  <head
+  ><meta charset="UTF-8">
+      <title>Центр Компьютерного обучения Специалист</title>
+
+    <style type="text/css">
+     
+      body { background-color: #8C756A; color: white; font-family: Arial, Helvetica, sans-serif;
+             font-size: 26px; font-weight: bolder;line-height: 140%;
+            letter-spacing: 1.3px;width: 2400px; height: 1500px;   overflow: scroll;}
+
+      h1,h3{line-height: 140%;}
+      #nav{ font-size: 40px; font-weight: bold; float: right;font-style: italic;
+       margin-right: 35%; } /*навигоционное меню*/
+       #if{margin-left: 10%;margin-top: 2%;}   /*iframe*/
+      #im{float: left;margin-left: 1%; box-shadow: 15px -15px 15px #483C32; } /*картинка универсет.*/
+      #ot{float:right; margin-right: 10%;;overflow: auto;} /*основной заголовок*/
+      #ad{ float: right; font-size: 20px; margin-top: 70px; text-align: right;} /*адресс места*/
+      #tx{ float: right; width: 65%;text-align: justify;} /*основной техт*/
+      #frm{float: left;width: 700px;} /*форма поступл.*/
+       table{width: 700px;}
+    .rt{text-align: right;}
+     a {color: black;}
+
+  </style>
+  </head>
+
+  <body leftmargin="2.5%" rightmargin="2.5%">
+    <div id="im"><img src="bou.jpg"></div>
+
+    <div id="ot"><h1> Отделение Бауманского Университета—«Специалист »<br>
+      объявляет новый набор на ближайшие курсы   </h1></div>
+   
+   
+    <div id="nav">
+        <a href="lab_2.html" target="frame">PHP</a> |
+        <a href="lab_2.1.html" target="frame"> JavaScript</a> | 
+        <a href="lab_2.2.html" target="frame">Другие</a>
+    </div>
+      
+     
+         <div id="if" >
+          <iframe width="95%" height="350px" name="frame" src="lab_2.html"> &nbsp;</iframe>
+        </div>
+
+                  <!--форма-->
+        <div id="frm">
+          <form>
+            <table >
+              <caption><a href="postuplenie.html" target="_blank" ><h3>Запрос на поступление</h3></a> </caption>
+              <tr>
+                <td>Имя:</td><td> <input type="text" name="n"></td>
+              </tr>
+              <tr>
+                <td>Фамилия:</td><td> <input height="10px" type="text" name="ln"></td>
+              </tr>
+              <tr>
+                <td>Пол</td><td><input type="radio" name="m">&nbsp;мужчина<br/><input type="radio" name="f">&nbsp;женщина</td>
+              </tr>
+              <tr>
+                <td>Род деятельности</td><td><select name="select">
+                  <option selected="" value="st">студент</option>
+                  <option value="rbot">работник</option>
+                  <option value="pin">пенсионер</option>
+                  <option value="bzd">безработный</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td> Можете оставить<br>
+                    ваши пожелания</td><td> <textarea title="оставте ваши пожелания">&nbsp;</textarea></td>
+              </tr>
+              <tr>
+                <td colspan="2"> я не против разглашения моих данных
+                  <input type="checkbox" name="ch"></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="rt" ><input class="rt" type="submit" name="otz" value="Послать отзыв"> &nbsp;&nbsp;
+                  <input type="reset" name="ochs" value="Очистить форму">
+                </td>
+              </tr>
+              
+             <tr>
+                <td colspan="2">За дополнительной информоцией <br/>
+                обращайтесь по адресу: <a href="https://mail.google.com" target="_blank">tin@gmail.com</a></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+
+         <div id="tx">
+          <p>
+            Центр компьютерного обучения<em> Специалист</em> - ведущий центр России в области IT-обучения,
+            являющийся сертифицированным центром обучения <em>Microsoft</em>,
+            Золотым партнером Microsoft, авторизованным центром <em>Microsoft Business Solutions</em> и 
+            авторизованным центром тестирования <em>Microsoft Office Specialist</em>.
+            Учебный центр предлагает подготовку на статусы <em>CCNA(R), CCNP(R) и CCDA(R) </em>
+            по продуктам и решениям компании <em>Cisco(R)</em>;
+            является ведущим учебным центром по <em>Linux и FreeBSD</em> технологиям в России.
+          </p>
+          <p>
+            <em>Специалист - первый в России Linux Professional Institute Training Partner 
+            (LATP) и Novell Certified Linux Engineer </em>, авторизованный учебный 
+            центр<em> ASPLinux</em>;
+            имеет 4 авторизации ведущих фирм:<em>Autodesk, SolidWorks, Grafisoft и Ascon.</em>
+            Лучший учебный центр Autodesk в 2006 году, позволяет пройти обучение 
+            на сертифицированных курсах <strong><em>Autodesk</em> по всем продуктам компании 
+            <em>(AutoCad, Inventor Series, VIZ и др.)</em></strong>.
+          </p><p>
+            Центр предлагает курсы по всем популярным продуктам <em>Adobe - Photoshop</em>,
+            <em>Illustrator, InDesign, Acrobat, Premiere, PageMaker</em> и др. 
+            Здесь можно записаться на <em> курсы Photoshop, курсы Cisco , курсы Microsoft, 
+            курсы Linux, курсы AutoCad и др.</em>
+          </p> 
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <div id="ad">
+          Адрес главного офиса:<br/>
+                г. Москва, Госпитальный переулок,
+                д. 4/6, корпус МГТУ им. Баумана "Стилобат", 2-й этаж.<br/>
+                © 1991-2015 Центр компьютерного обучения "Специалист"tm при МГТУ им. Н.Э.Баумана
+         </div> 
+ 
+</body>
+</html>
